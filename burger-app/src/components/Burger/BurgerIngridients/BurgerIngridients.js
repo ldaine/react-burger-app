@@ -1,5 +1,5 @@
 import React, { Component } from 'react'; 
-import styles from './BurgerIngridient.module.css'; 
+import styles from './BurgerIngridients.module.css'; 
 import { BURGER_INGRIDIENTS } from '../BurgerIngridientConst'; 
 import PropTypes from 'prop-types'; 
 
@@ -9,7 +9,7 @@ class BurgerIngridient extends Component {
 
         let ingridient = null; 
 
-        switch (props.type) {
+        switch (this.props.type) {
             case BURGER_INGRIDIENTS.BREAD_BOTTOM:
                 ingridient = (
                 <div className={styles.BreadBottom}></div>
