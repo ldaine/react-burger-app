@@ -1,0 +1,8 @@
+.BuildControls{
+    width: 100%; 
+    background-color: #CF8F2E; 
+    box-shadow: 0 2px 1px #ccc;
+    margin: auto; 
+    padding: 10px 0;  
+    text-align: center; 
+}
